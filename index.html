@@ -6,6 +6,42 @@
 	<title>Hello Coursera!</title>
 </head>
 <body>
-<h1>Hello Coursera!!!It's a great course!<h1>
+
+<h1>Hello Coursera!!!It's a great course!</h1>
+p { color: blue;} /* base style */
+#p1 {
+	width: 300px;
+	height: 300px;
+}
+#p2 {
+	width: 50px;
+	height: 50px;
+}
+
+@media (min-width:992px) {
+  #p1 {
+	width: 80%;
+  }
+  #p2 {
+	width: 150px;
+	height: 150px
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+	width: 50%;
+  }
+  #p2 {
+	width: 100px;
+	height:100px;
+  }
+}
+
+<p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p id="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p id="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
 </body>
 </html>
