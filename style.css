@@ -93,3 +93,9 @@ body {
 		width: 100%;
 	}
 
+/*******Simple Responsive**************/
+
+
+.row {
+width: 100px;
+}
