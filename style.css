@@ -1,263 +1,101 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset=“utf-8”>
-<meta name=“viewport” content=“width=device-width, initial-scale=1”>
-<title>Hello Coursera!</title>
-<link rel=“stylesheet” href=“style.css”>
-<style>
-* {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-
-
-}
-}
-#box {
-padding:10px
+body {
+    background-color: gray;
+    font-size: 130%
 }
 
+  /***Desktop***/
+  @media (min-width: 992px) {
+	.col-lg-1, col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6 
+	.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+		float: left;
+		border: 1px;
+	}
+	.col-lg-1 {
+		width: 8.33%;
+	}
+	.col-lg-2 {
+		width: 16.66%;
+	}
+	.col-lg-3 {
+		width: 25%;
+	}
+	.col-lg-4 {
+		width: 33%;
+	}
+	.col-lg-5 {
+		width: 41.66%;
+	}
+	.col-lg-6 {
+		width: 50%;
+	}
+	.col-lg-7 {
+		width: 58.33%;
+	}
+	.col-lg-8 {
+		width: 66.66%;
+	}
+	.col-lg-9 {
+		width: 74.99%;
+	}
+	.col-lg-10 {
+		width: 83.33%;
+	}
+	.col-lg-11 {
+		width: 91.66%;
+	}
+	.col-lg-12 {
+		width: 100%;
+	}
 }
+
+/***Tablet***/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-1, col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6 
+	.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+		float: left;
+		border: 1px;
+	}	
+	}
+	.col-md-1 {
+		width: 8.33%;
+	}
+	.col-md-2 {
+		width: 16.66%;
+	}
+	.col-md-3 {
+		width: 25%;
+	}
+	.col-md-4 {
+		width: 33%;
+	}
+	.col-md-5 {
+		width: 41.66%;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-7 {
+		width: 58.33%;
+	}
+	.col-md-8 {
+		width: 66.66%;
+	}
+	.col-md-9 {
+		width: 74.99%;
+	}
+	.col-md-10 {
+		width: 83.33%;
+	}
+	.col-md-11 {
+		width: 91.66%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+
+/*******Simple Responsive**************/
 
 
 .row {
 width: 100px;
 }
-
-/* On screens that are 992px or more, set the background color to blue */
-@media (min-width: 992px) {
-  float: left;
-  border: 1px;
-  margin-right: 10px;
-  position: relative;
-}
-     .col-lg-1 {
-        width: 8.33%;
-    }
-    .col-lg-2 {
-        width: 16.66%;
-    }
-    .col-lg-3 {
-        width: 25%;
-    }
-    .col-lg-4 {
-        width: 33%;
-    }
-    .col-lg-5 {
-        width: 41.66%;
-    }
-    .col-lg-6 {
-        width: 50%;
-    }
-    .col-lg-7 {
-        width: 58.33%;
-    }
-    .col-lg-8 {
-        width: 66.66%;
-    }
-    .col-lg-9 {
-        width: 74.99%;
-    }
-    .col-lg-10 {
-        width: 83.33%;
-    }
-    .col-lg-11 {
-        width: 91.66%;
-    }
-    .col-lg-12 {
-        width: 100%;
-}
-
-/* On screens that are 992px or less, set the background color to blue */
-@media (min-width: 768px) and (max-width: 991) {
-   float: left;
-  border: 1px;
-}
-     .col-md-1 {
-        width: 8.33%;
-    }
-    .col-md-2 {
-        width: 16.66%;
-    }
-    .col-md-3 {
-        width: 25%;
-    }
-    .col-lg-4 {
-        width: 33%;
-    }
-    .col-lg-5 {
-        width: 41.66%;
-    }
-    .col-lg-6 {
-        width: 50%;
-    }
-    .col-lg-7 {
-        width: 58.33%;
-    }
-    .col-lg-8 {
-        width: 66.66%;
-    }
-    .col-lg-9 {
-        width: 74.99%;
-    }
-    .col-lg-10 {
-        width: 83.33%;
-    }
-    .col-lg-11 {
-        width: 91.66%;
-    }
-    .col-lg-12 {
-        width: 100%;
-}
-
-/* On screens that are 767px or less, set the background color to blue */
-@media (max-width: 767px) {
-   float: left;
-  border: 1px;
-}
-     .col-lg-1 {
-        width: 8.33%;
-    }
-    .col-lg-2 {
-        width: 16.66%;
-    }
-    .col-lg-3 {
-        width: 25%;
-    }
-    .col-lg-4 {
-        width: 33%;
-    }
-    .col-lg-5 {
-        width: 41.66%;
-    }
-    .col-lg-6 {
-        width: 50%;
-    }
-    .col-lg-7 {
-        width: 58.33%;
-    }
-    .col-lg-8 {
-        width: 66.66%;
-    }
-    .col-lg-9 {
-        width: 74.99%;
-    }
-    .col-lg-10 {
-        width: 83.33%;
-    }
-    .col-lg-11 {
-        width: 91.66%;
-    }
-    .col-lg-12 {
-        width: 100%;
-}
-h2 {
-  text-align: center;
-  top: 50px;
-  }
-section {
- clear: none;
- border: 5px;
- width: 130px;
- float: left;
- top: 30px;
-}
-p {
-border:1px solid black;
-background-color: orange;
-text-align: center;
-position:relative;
-margin-right: 15px;
-Margin-left: 30px;
-}
-.content {
-border:6px solid black;
-background-color: #34c9eb;
-position:relative;
-top: 65px;
-left: 65px;
-width: 300px;
-height: 250px;
-top margin: 200px;
-float:left;
-float:auto;
-margin-right: 100px;
-
-}
-#p1 {
-  border:1px solid black;
-background-color: #34c9eb;
-text-align: center;
-position:relative;
-margin-right: 30px;
-Margin-left: 100px;
-}
-
-
-
-}
-#p2  {
-border:8px solid black;
-background-color: #DAC1C1;
-position:relative;
-top: -185px;
-left: 500px;
-width: 300px;
-height: 250px;
-margin-right:300px;
-
-}
-#p3 {
-border:5px solid black;
-background-color: #DAC1C1;
-position:relative;
-top: -435px;
-left: 900px;
-width: 300px;
-height: 250px;
-
-</style>
-</head>
-<body>
-<h2>Our Menu</h2>
-<div id=“container”>
-<div id=“#p1”>
- 
-  <div class="container">
-  <div class="p1">
-   
-    <div class="content">
-    <p>Normal card</p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="p2">
- 
-    <div class="content">
-      <p>Normal card</p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    </div>
-  </div>
-</div>
-
-
-<div class="container">
-  <div class="p3">
- 
-    <div class="content">
-      <p>Normal card</p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-    </div>
-  </div>
-</div>
-
-
-
-</div>
